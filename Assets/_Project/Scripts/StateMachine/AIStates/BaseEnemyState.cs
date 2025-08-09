@@ -10,6 +10,7 @@ namespace Platformer
 
         protected static readonly int LocomotionHash = Animator.StringToHash("Locomotion");
         protected static readonly int SprintHash = Animator.StringToHash("Sprint");
+        protected static readonly int DieHash = Animator.StringToHash("Die");
         protected static readonly int AttackHash = Animator.StringToHash("Attack");
 
         protected BaseEnemyState(EnemyController enemy, Animator animator)

@@ -149,6 +149,7 @@ namespace Platformer {
             
             foreach (var enemy in hitEnemies) {
                 Debug.Log(enemy.name);
+                Debug.Log(attackDamage);
                 if (enemy.CompareTag("Enemy")) {
                     enemy.GetComponent<Health>().TakeDamage(attackDamage);
                 }
